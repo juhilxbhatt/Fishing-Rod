@@ -1,0 +1,51 @@
+#BACKEND
+/BackEnd/.idea/
+/BackEnd/.vscode/
+/BackEnd/.venv*/
+/BackEnd/venv*/
+/BackEnd/__pycache__/
+/BackEnd/dist/
+/BackEnd/.coverage*
+/BackEnd/htmlcov/
+/BackEnd/.tox/
+/BackEnd/docs/_build/
+
+#FRONTEND
+# dependencies
+/FrontEnd/node_modules
+/FrontEnd/.pnp
+/FrontEnd/.pnp.*
+/FrontEnd/.yarn/*
+/FrontEnd/!.yarn/patches
+/FrontEnd/!.yarn/plugins
+/FrontEnd/!.yarn/releases
+/FrontEnd/!.yarn/versions
+
+# testing
+/FrontEnd/coverage
+
+# next.js
+/FrontEnd/.next/
+/FrontEnd/out/
+
+# production
+/FrontEnd/build
+
+# misc
+/FrontEnd/.DS_Store
+/FrontEnd/*.pem
+
+# debug
+/FrontEnd/npm-debug.log*
+/FrontEnd/yarn-debug.log*
+/FrontEnd/yarn-error.log*
+
+# env files (can opt-in for committing if needed)
+/FrontEnd/.env*
+
+# vercel
+/FrontEnd/.vercel
+
+# typescript
+/FrontEnd/*.tsbuildinfo
+/FrontEnd/next-env.d.ts
